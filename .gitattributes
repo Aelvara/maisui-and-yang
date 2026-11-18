@@ -1,0 +1,13 @@
+# 二进制文件不做换行转换
+*.pdf  binary
+*.docx binary
+*.mp4  binary
+*.jpg  binary
+*.JPG  binary
+*.png  binary
+
+# 文本统一 LF
+*.md   text eol=lf
+*.txt  text eol=lf
+*.html text eol=lf
+.gitignore text eol=lf
